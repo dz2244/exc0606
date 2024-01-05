@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
-
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +21,15 @@ public class MainActivity extends AppCompatActivity {
     public void ace(View view) {
         Random  rnd = new Random();
         int x = rnd.nextInt(3)+1;
-        image.setImageResource(R.drawable.);
+        if(x==1)
+            image.setImageResource(R.drawable.smurfs);
+            btn.setText("1");
+        else if (x==2)
+            image.setImageResource(R.drawable.miniun);
+            btn.setText("2");
+        else if(x==3)
+            image.setImageResource(R.drawable.theflash);
+            btn.setText("3");
+
     }
 }
