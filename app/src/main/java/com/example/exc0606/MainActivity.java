@@ -24,17 +24,17 @@ public class MainActivity extends AppCompatActivity {
         if(x==1)
         {
             image.setImageResource(R.drawable.smurfs);
-            btn.setText("1");
+            btn.setText("1, unlucky to be honest");
         }
         else if (x==2)
         {
             image.setImageResource(R.drawable.miniun);
-            btn.setText("2");
+            btn.setText("2, ez pz lemon squizi");
         }
         else if(x==3)
         {
             image.setImageResource(R.drawable.theflash);
-            btn.setText("3");
+            btn.setText("3, my name is barry allen and i am the fastest man alive!!!!!totototototototo");
         }
 
     }
