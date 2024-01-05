@@ -22,14 +22,20 @@ public class MainActivity extends AppCompatActivity {
         Random  rnd = new Random();
         int x = rnd.nextInt(3)+1;
         if(x==1)
+        {
             image.setImageResource(R.drawable.smurfs);
             btn.setText("1");
+        }
         else if (x==2)
+        {
             image.setImageResource(R.drawable.miniun);
             btn.setText("2");
+        }
         else if(x==3)
+        {
             image.setImageResource(R.drawable.theflash);
             btn.setText("3");
+        }
 
     }
 }
