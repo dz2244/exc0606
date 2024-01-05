@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         int x = rnd.nextInt(3)+1;
         if(x==1)
         {
-            image.setImageResource(R.drawable.smurfs);
+            image.setImageResource(R.drawable.ace);
             btn.setText("1, unlucky to be honest");
         }
         else if (x==2)
